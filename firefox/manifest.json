@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Adult Content Blocker | noFap",
+    "version": "1.1",
+    "description": "Checks for adult content keywords on every page load",
+    "permissions": ["activeTab", "webNavigation"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]  
+    }],
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png" 
+    }
+}
