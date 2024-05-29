@@ -1,0 +1,1 @@
+# adult-content-blocking-extension
